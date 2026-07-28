@@ -1,1 +1,6 @@
-
+.logo img{
+    width:120px;
+    height:120px;
+    border-radius:50%;
+    border:4px solid white;
+}
