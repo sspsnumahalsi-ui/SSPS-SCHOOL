@@ -1,1 +1,83 @@
+/* ===== Reset ===== */
 
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+
+/* ===== Body ===== */
+
+body{
+    background:#f5f7fa;
+}
+
+/* ===== Header ===== */
+
+.header{
+    background:#ffffff;
+    padding:15px 40px;
+    box-shadow:0 3px 12px rgba(0,0,0,.12);
+}
+
+.logo-area{
+    display:flex;
+    align-items:center;
+}
+
+.logo-area img{
+    width:90px;
+    height:90px;
+    border-radius:50%;
+    margin-right:20px;
+}
+
+.school-info h1{
+    color:#003366;
+    font-size:40px;
+    font-weight:bold;
+}
+
+.school-info p{
+    color:#555;
+    font-size:20px;
+    margin-top:5px;
+}
+
+/* ===== Navigation ===== */
+
+.navbar{
+    background:#0B3D91;
+    padding:15px;
+    position:sticky;
+    top:0;
+    z-index:999;
+}
+
+.navbar ul{
+    display:flex;
+    justify-content:center;
+    list-style:none;
+    flex-wrap:wrap;
+}
+
+.navbar li{
+    margin:8px;
+}
+
+.navbar a{
+    text-decoration:none;
+    background:#ffffff;
+    color:#0B3D91;
+    padding:12px 22px;
+    border-radius:8px;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.navbar a:hover{
+    background:#FFD700;
+    color:#000;
+    transform:translateY(-3px);
+}
